@@ -10,7 +10,7 @@ public:
     static const char ADDITION_CODE = '+';
 addition_operation(): abstract_operator(ADDITION_CODE){}
     int perform(int x, int y) override {return x+y;}
-virtual ~addition_operation(){}
+virtual ~addition_operation() override{}
 
 
 };

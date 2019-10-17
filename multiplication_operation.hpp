@@ -10,6 +10,6 @@ public:
     static const char MULTIPLICATION_CODE = '*';
     multiplication_operation():abstract_operator(MULTIPLICATION_CODE){}
     int perform(int x, int y)override {return x*y;}
-    virtual ~multiplication_operation(){}
+    virtual ~multiplication_operation() override{}
 };
 #endif //LAB5_MULTIPLICATION_OPERATION_HPP

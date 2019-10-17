@@ -9,7 +9,7 @@ class division_operation: public abstract_operator{
 public:
     static const char DIVISION_CODE = '/';
     division_operation(): abstract_operator(DIVISION_CODE){}
-    int perform(int x, int y)override {return x/y;}
-    virtual ~division_operation(){}
+    int perform(int x, int y)override {return x / y;}
+    virtual ~division_operation() override{}
 };
 #endif //LAB5_DIVISION_OPERATION_HPP
