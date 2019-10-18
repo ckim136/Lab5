@@ -6,6 +6,7 @@
 #define LAB5_ABSTRACT_OPERATION_HPP
 #include "operation.hpp"
 
+// Interface
 class abstract_operator: public operation{
 private:
     char operation_type;
@@ -17,6 +18,7 @@ public:
     char get_code() override {
         return operation_type;
     }
+    //virtual destructor
     virtual ~abstract_operator(){}
 };
 

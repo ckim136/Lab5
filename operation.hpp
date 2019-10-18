@@ -7,8 +7,10 @@
 using namespace std;
 class operation{
 public:
+    //purely virtual member functions
     virtual char get_code() = 0;
     virtual int perform(int x, int y) = 0;
+    // virtual destructor
     virtual ~operation(){};
 };
 #endif //LAB5_OPERATION_HPP

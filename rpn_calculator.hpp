@@ -15,9 +15,12 @@ class rpn_calculator{
 private:
     int result;
     stack<int> myStack;
+    // returns pointer to the operation
     operation* operation_type(char operation);
+    // accepts pointer to the operation
     void perform(operation*);
 public:
+    // accepts formula
     int process_form(string formula);
 
 };

@@ -80,7 +80,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/kimem/CLionProjects/Lab5/abstract_operation.hpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kimem/CLionProjects/Lab5/addition_operation.hpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kimem/CLionProjects/Lab5/division_operation.hpp">
+			<Option target="Lab5"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/kimem/CLionProjects/Lab5/main.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kimem/CLionProjects/Lab5/multiplication_operation.hpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kimem/CLionProjects/Lab5/operation.hpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kimem/CLionProjects/Lab5/rpn_calculator.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kimem/CLionProjects/Lab5/rpn_calculator.hpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kimem/CLionProjects/Lab5/subtraction_operation.hpp">
 			<Option target="Lab5"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kimem/CLionProjects/Lab5/CMakeLists.txt">
